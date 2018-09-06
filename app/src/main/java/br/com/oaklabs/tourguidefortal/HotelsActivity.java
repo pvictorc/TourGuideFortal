@@ -15,10 +15,10 @@ public class HotelsActivity extends AppCompatActivity {
 
         final ArrayList<Place> placesList = new ArrayList<Place>();
 
-        placesList.add(new Place("Vila Galé", "Av. Dioguinho, 4189 - Praia do Futuro, Fortaleza - CE, 60183-707", R.drawable.hoteis_vilagale));
-        placesList.add(new Place("Marina Park Hotel", "Av. Presidente Castelo Branco, 400 - Moura Brasil, Fortaleza - CE, 60312-060", R.drawable.hoteis_marinapark));
+        placesList.add(new Place(getString(R.string.hotels01), getString(R.string.hotels01_address), R.drawable.hoteis_vilagale));
+        placesList.add(new Place(getString(R.string.hotels02), getString(R.string.hotels02_address), R.drawable.hoteis_marinapark));
 
-        PlaceAdapter adapter = new PlaceAdapter(this,R.layout.list_item, placesList);
+        PlaceAdapter adapter = new PlaceAdapter(this, R.layout.list_item, placesList);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 

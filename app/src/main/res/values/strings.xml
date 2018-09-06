@@ -8,4 +8,26 @@
     <string name="hotels">Hotels</string>
     <string name="nightlife">Nightlife</string>
     <string name="title_activity_best_places">BestPlacesActivity</string>
+    <string name="hotels01">Vila Galé</string>
+    <string name="hotels02">Marina Park Hotel</string>
+    <string name="hotels01_address">Av. Dioguinho, 4189 – Praia do Futuro, Fortaleza – CE, 60183-707</string>
+    <string name="hotels02_address">Av. Presidente Castelo Branco, 400 – Moura Brasil, Fortaleza – CE, 60312-060</string>
+    <string name="places01">Beach park</string>
+    <string name="places01_address">Aquiraz, CE</string>
+    <string name="places02">Dragão do Mar</string>
+    <string name="places02_address">Rua Porto das Dunas, 2734 – Porto das Dunas, Aquiraz – CE, 61700-000</string>
+    <string name="places03">Praia de Iracema</string>
+    <string name="places03_address">Av. Beira Mar, Fortaleza, CE</string>
+    <string name="places04">Praia do Futuro</string>
+    <string name="places04_address">Av, Zezé Diogo</string>
+    <string name="social01">Pirata Bar</string>
+    <string name="social01_address">Rua dos Tabajaras, 325 – Praia de Iracema, Fortaleza – CE, 60060-510</string>
+    <string name="social02">Barraca Crocobeach</string>
+    <string name="social02_address">Av. Clóvis Arrais Maia, 3115 – Praia do Futuro, Fortaleza – CE, 60183-694</string>
+    <string name="restaurants01">Coco Bambu</string>
+    <string name="restaurants01_address">Av. Beira Mar, 3698</string>
+    <string name="restaurants02">Vojnilô</string>
+    <string name="restaurants02_address">R. Frederico Borges, 409 – Varjota</string>
+    <string name="restaurants03">Centro das Tapioqueiras</string>
+    <string name="restaurants03_address">Av. Washington Soares, 10215 (Messejana)</string>
 </resources>

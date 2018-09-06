@@ -15,11 +15,11 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         final ArrayList<Place> placesList = new ArrayList<Place>();
 
-        placesList.add(new Place("Coco Bambu", "Av. Beira Mar, 3698", R.drawable.restaurantes_cocobambu));
-        placesList.add(new Place("Vojnilô", "R. Frederico Borges, 409 - Varjota", R.drawable.restaurantes_vojnilo));
-        placesList.add(new Place("Centro das Tapioqueiras", "Av. Washington Soares, 10215 (Messejana)", R.drawable.restaurantes_tapioqueiras));
+        placesList.add(new Place(getString(R.string.restaurants01), getString(R.string.restaurants01_address), R.drawable.restaurantes_cocobambu));
+        placesList.add(new Place(getString(R.string.restaurants02), getString(R.string.restaurants02_address), R.drawable.restaurantes_vojnilo));
+        placesList.add(new Place(getString(R.string.restaurants03), getString(R.string.restaurants03_address), R.drawable.restaurantes_tapioqueiras));
 
-        PlaceAdapter adapter = new PlaceAdapter(this,R.layout.list_item, placesList);
+        PlaceAdapter adapter = new PlaceAdapter(this, R.layout.list_item, placesList);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }

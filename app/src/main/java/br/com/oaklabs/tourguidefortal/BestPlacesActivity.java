@@ -20,12 +20,12 @@ public class BestPlacesActivity extends AppCompatActivity {
 
         final ArrayList<Place> placesList = new ArrayList<Place>();
 
-        placesList.add(new Place("Beach park", "Aquiraz, CE", R.drawable.lugares_beachpark));
-        placesList.add(new Place("Dragão do Mar", "Rua Porto das Dunas, 2734 - Porto das Dunas, Aquiraz - CE, 61700-000", R.drawable.lugares_dragaodomar));
-        placesList.add(new Place("Praia de Iracema", "Av. Beira Mar, Fortaleza, CE", R.drawable.lugares_praiadeiracema));
-        placesList.add(new Place("Praia do Futuro", "Av, Zezé Diogo",R.drawable.lugares_praiadofuturo));
+        placesList.add(new Place(getString(R.string.places01), getString(R.string.places01_address), R.drawable.lugares_beachpark));
+        placesList.add(new Place(getString(R.string.places02), getString(R.string.places02_address), R.drawable.lugares_dragaodomar));
+        placesList.add(new Place(getString(R.string.places03), getString(R.string.places03_address), R.drawable.lugares_praiadeiracema));
+        placesList.add(new Place(getString(R.string.places04), getString(R.string.places04_address), R.drawable.lugares_praiadofuturo));
 
-        PlaceAdapter adapter = new PlaceAdapter(this,R.layout.list_item, placesList);
+        PlaceAdapter adapter = new PlaceAdapter(this, R.layout.list_item, placesList);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 

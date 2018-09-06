@@ -15,10 +15,10 @@ public class SocialActivity extends AppCompatActivity {
 
         final ArrayList<Place> placesList = new ArrayList<Place>();
 
-        placesList.add(new Place("Pirata Bar", "Rua dos Tabajaras, 325 - Praia de Iracema, Fortaleza - CE, 60060-510", R.drawable.social_piratabar));
-        placesList.add(new Place("Barraca Crocobeach", "Av. Clóvis Arrais Maia, 3115 - Praia do Futuro, Fortaleza - CE, 60183-694", R.drawable.social_crocobeach));
+        placesList.add(new Place(getString(R.string.social01), getString(R.string.social01_address), R.drawable.social_piratabar));
+        placesList.add(new Place(getString(R.string.social02), getString(R.string.social02_address), R.drawable.social_crocobeach));
 
-        PlaceAdapter adapter = new PlaceAdapter(this,R.layout.list_item, placesList);
+        PlaceAdapter adapter = new PlaceAdapter(this, R.layout.list_item, placesList);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 
