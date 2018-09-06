@@ -10,7 +10,7 @@
         android:id="@+id/item_image"
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         android:src="@drawable/lugares_praiadeiracema" />
 
     <RelativeLayout
