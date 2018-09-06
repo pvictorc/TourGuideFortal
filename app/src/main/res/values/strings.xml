@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tour Guide Fortal</string>
+    <string name="title_home">Guide to Fortaleza</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="places">Best Places</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="title_activity_best_places">BestPlacesActivity</string>
+</resources>
